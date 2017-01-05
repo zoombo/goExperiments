@@ -2,6 +2,7 @@ package main
 import "fmt"
 
 func swap(x *int, y *int) {
+    // var tmp int = *x // тоже работает но с warning
     var tmp int
     tmp = *x 
     *x = *y
